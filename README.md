@@ -2,9 +2,15 @@
 
 中文版的智能体（Agents）集合 - 为各类 AI IDE 和开发工具提供专业的 AI 助手
 
+## 什么是 Agent？
+
+Agent（智能体）本质上是一段精心设计的提示词，定义了 AI 在特定任务中的角色、能力和工作方式。你可以把这些 agent 文件嵌入到支持 agent 系统的 AI IDE 中，比如 Trae、Claude Code、Cursor、Windsurf、Continue 等，让 AI 扮演不同的专业角色，帮你完成各种开发任务。
+
+打个比方，agent 就像是给 AI 配备了不同的"专业工具包"——代码审查员会仔细检查代码质量，性能优化师会专注提升系统效率，数据库专家会帮你处理复杂查询。每个 agent 都在自己的领域里很专业，用起来比让 AI 从头开始更高效。
+
 ## 项目简介
 
-本项目汇集了三个优秀的 Agent 仓库，并将它们翻译成中文版本，方便中文用户使用：
+本项目汇集多个优秀的 Agent 仓库，并将它们翻译成中文版本，方便中文用户使用：
 
 - **[awesome-claude-agents-cn](awesome-claude-agents-cn/)** - AI 开发团队（24个专业 agents）
 - **[awesome-claude-code-subagents-cn](awesome-claude-code-subagents-cn/)** - 代码 Subagents（126+个，10个类别）
@@ -267,7 +273,7 @@ claude "帮我优化这个 Python 函数的性能"
 - market-researcher - 市场分析和消费者洞察
 - data-researcher - 数据发现和分析专家
 
-### 3. buildwithclaude-cn - 插件市场（117+个agents）
+### 3. buildwithclaude-cn - 插件市场（117+个）
 
 #### Agents 分类
 - **开发与架构** - 后端、前端、移动、GraphQL 专家
@@ -413,4 +419,4 @@ awesome-agents-cn/
 
 ---
 
-让 AI 开发变得更强大，用中文！🚀
+让 AI 开发变得更强大🚀

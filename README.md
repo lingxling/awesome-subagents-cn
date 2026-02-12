@@ -1,20 +1,43 @@
 # awesome-agents-cn
 
-中文版的智能体（Agents）集合 - 为 Claude Code 提供专业的 AI 助手
+中文版的智能体（Agents）集合 - 为各类 AI IDE 和开发工具提供专业的 AI 助手
 
 ## 项目简介
 
-本项目汇集了三个优秀的 Claude Code Agent 仓库，并将它们翻译成中文版本，方便中文用户使用：
+本项目汇集了三个优秀的 Agent 仓库，并将它们翻译成中文版本，方便中文用户使用：
 
 - **[awesome-claude-agents-cn](awesome-claude-agents-cn/)** - AI 开发团队（24个专业 agents）
 - **[awesome-claude-code-subagents-cn](awesome-claude-code-subagents-cn/)** - 代码 Subagents（126+个，10个类别）
 - **[buildwithclaude-cn](buildwithclaude-cn/)** - 插件市场（117个agents + 175个commands + 28个hooks + 26个skills）
 
+> **兼容性说明**：本项目的 agents 主要为 Claude Code 设计，但也可以适配到其他支持 agent 系统的 AI IDE（如 Cursor、Windsurf、Continue 等）。
+
+## 翻译进度
+
+### ✅ 已完成
+- **主 README.md** - 完整的中文版
+- **awesome-claude-agents-cn** (15个文件):
+  - README.md ✅
+  - Core agents (4个) ✅
+  - Orchestrators (3个) ✅
+  - Universal agents (4个) ✅
+  - Specialized agents (8个关键agents) ✅
+- **awesome-claude-code-subagents-cn**:
+  - README.md ✅
+
+### ⏳ 进行中
+- **awesome-claude-code-subagents-cn** - categories (126+个agents，10个类别)
+- **buildwithclaude-cn** - README.md + agents (117个)
+
+### 📋 待完成
+- **awesome-claude-code-subagents-cn** - 剩余的 subagents 文件
+- **buildwithclaude-cn** - 所有 agents、commands、hooks、skills
+
 ## 快速开始
 
 ### 安装 Agents
 
-将需要的 agent 文件复制到你的 Claude Code agents 目录：
+将需要的 agent 文件复制到你的 agents 目录：
 
 ```bash
 # 全局安装（所有项目可用）
@@ -26,7 +49,7 @@ cp -r awesome-claude-agents-cn/agents/* .claude/agents/
 
 ### 使用 Agents
 
-在 Claude Code 中，你可以：
+在支持 agents 的 AI IDE 中，你可以：
 
 ```bash
 # 查看所有可用的 agents
@@ -35,7 +58,7 @@ cp -r awesome-claude-agents-cn/agents/* .claude/agents/
 # 直接使用某个 agent
 claude "使用 @code-reviewer 审查我的代码"
 
-# 让 Claude 自动选择合适的 agent
+# 让 AI 自动选择合适的 agent
 claude "帮我优化这个 Python 函数的性能"
 ```
 
@@ -390,4 +413,4 @@ awesome-agents-cn/
 
 ---
 
-让 Claude Code 变得更强大，用中文！🚀
+让 AI 开发变得更强大，用中文！🚀

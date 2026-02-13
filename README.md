@@ -16,7 +16,6 @@ Agent（智能体）本质上是一段精心设计的提示词，定义了 AI �
 - **[awesome-claude-code-subagents-cn](awesome-claude-code-subagents-cn/)** - 代码 Subagents（126+个，10个类别）
 - **[buildwithclaude-cn](buildwithclaude-cn/)** - 插件市场（117个agents + 175个commands + 28个hooks + 26个skills）
 
-> **兼容性说明**：本项目的 agents 主要为 Claude Code 设计，但也可以适配到其他支持 agent 系统的 AI IDE（如 Cursor、Windsurf、Continue 等）。
 
 ## 翻译进度
 
@@ -30,13 +29,23 @@ Agent（智能体）本质上是一段精心设计的提示词，定义了 AI �
   - Specialized agents (8个关键agents) ✅
 - **awesome-claude-code-subagents-cn**:
   - README.md ✅
+  - 01-core-development (10个agents) ✅
+  - 02-language-specialists (21个agents) ✅
+  - 03-infrastructure (15个agents) ✅
+  - 04-quality-security (14个agents) ✅
+  - 05-data-ai (10个agents) ✅
+  - 06-developer-experience (10个agents) ✅
 
 ### ⏳ 进行中
-- **awesome-claude-code-subagents-cn** - categories (126+个agents，10个类别)
+- **awesome-claude-code-subagents-cn**:
+  - 07-specialized-domains (4个agents，共10个) - 进行中
+  - 08-business-product (待开始)
+  - 09-meta-orchestration (待开始)
+  - 10-research-analysis (待开始)
 - **buildwithclaude-cn** - README.md + agents (117个)
 
 ### 📋 待完成
-- **awesome-claude-code-subagents-cn** - 剩余的 subagents 文件
+- **awesome-claude-code-subagents-cn** - 剩余约46个agents
 - **buildwithclaude-cn** - 所有 agents、commands、hooks、skills
 
 ## 快速开始
